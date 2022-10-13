@@ -10,4 +10,13 @@
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("light-mode");
     })
+
+    document.querySelector(".downloadCv").addEventListener("click", () => {
+        
+        window.open('docs/Rahul_Ramacadran_CV.pdf');
+        // document.body.appendChild('docs/Rahul_Ramacadran_CV.pdf');
+    })
+
+    
+
 })();
